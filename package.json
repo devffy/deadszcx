@@ -1,0 +1,20 @@
+{
+  "name": "DeadSpace.IO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "lint": "standard --verbose | snazzy"
+  },
+  "author": "Roman Senokosov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^1.7.4",
+    "ecstatic": "^1.0.1",
+    "tracer": "^0.8.7"
+  },
+  "devDependencies": {}
+}
